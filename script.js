@@ -21,3 +21,34 @@ function nextpage() {
     
 }
 
+function nextpage1() {
+    let attempt = document.getElementById("pass1").value;
+    let password1 = "python";
+
+    if(attempt == password1){
+        window.location = "winPage.html"
+    }
+    else {
+        card.appendChild(message);
+    }
+    
+}
+
+var yippee = document.getElementById("clicker");
+
+yippee.addEventListener("click", function() {
+    let x = localStorage.getItem("clickCount") || 0;
+    x = parseInt(x) + 1;
+    localStorage.setItem("clickCount", x);
+});
+
+window.addEventListener("DOMContentLoaded", function() {
+    const numClicked = document.querySelector("#numclicked");
+    let subDisplay = document.createElement("h3");
+    subDisplay.classList.add("subDisplay");
+
+    let x = localStorage.getItem("clickCount") || 0;
+    subDisplay.textContent = "Yippee man has been clicked " + x + " times";
+    
+    numClicked.appendChild(subDisplay);
+});
