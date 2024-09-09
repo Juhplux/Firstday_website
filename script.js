@@ -18,7 +18,7 @@ function nextpage() {
     let password1 = "java";
 
     if(attempt == password1){
-        window.location = "2ndpage.html"
+        window.location = "cspz1.html"
     }
     else {
         card.appendChild(message);
@@ -31,7 +31,7 @@ function nextpage1() {
     let password1 = "python";
 
     if(attempt == password1){
-        window.location = "3rdpage.html"
+        window.location = "szpz2.html"
     }
     else {
         card.appendChild(message);
@@ -44,7 +44,7 @@ function nextpage2() {
     let password1 = "perl";
 
     if(attempt == password1){
-        window.location = "4thpage.html"
+        window.location = "cspl2.html"
     }
     else {
         card.appendChild(message);
@@ -57,7 +57,7 @@ function nextpage3() {
     let password1 = "javascript";
 
     if(attempt == password1){
-        window.location = "5thpage.html"
+        window.location = "problast.html"
     }
     else {
         card.appendChild(message);
@@ -70,7 +70,7 @@ function nextpage4() {
     let password1 = "webdev";
 
     if(attempt == password1){
-        window.location = "6thpage.html"
+        window.location = "goodlucklol.html"
     }
     else {
         card.appendChild(message);
